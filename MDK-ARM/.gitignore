@@ -1,0 +1,6 @@
+usbCom/*
+*.uvoptx
+*.dbgconf
+*.scvd
+*.lst
+*.uvguix.*
