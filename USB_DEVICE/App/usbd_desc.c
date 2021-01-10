@@ -63,13 +63,13 @@
   * @{
   */
 
-#define USBD_VID     1109
+#define USBD_VID     7788
 #define USBD_LANGID_STRING     1033
-#define USBD_MANUFACTURER_STRING     "CLEPTRUM"
-#define USBD_PID_FS     2014
-#define USBD_PRODUCT_STRING_FS     "CP_VComPort"
-#define USBD_CONFIGURATION_STRING_FS     "CDC Config"
-#define USBD_INTERFACE_STRING_FS     "CDC Interface"
+#define USBD_MANUFACTURER_STRING     "Stm badass VCOM"
+#define USBD_PID_FS     17878
+#define USBD_PRODUCT_STRING_FS     "STM32 BIG ComPort"
+#define USBD_CONFIGURATION_STRING_FS     "CDCtestConfig"
+#define USBD_INTERFACE_STRING_FS     "CDCtestInterface"
 
 #define USB_SIZ_BOS_DESC            0x0C
 

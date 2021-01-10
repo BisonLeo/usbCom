@@ -70,9 +70,9 @@
 /*---------- -----------*/
 #define USBD_MAX_STR_DESC_SIZ     512U
 /*---------- -----------*/
-#define USBD_DEBUG_LEVEL     3U
+#define USBD_DEBUG_LEVEL     0U
 /*---------- -----------*/
-#define USBD_LPM_ENABLED     0U
+#define USBD_LPM_ENABLED     1U
 /*---------- -----------*/
 #define USBD_SELF_POWERED     1U
 
@@ -92,10 +92,10 @@
 /* Memory management macros */
 
 /** Alias for memory allocation. */
-#define USBD_malloc         (void *)USBD_static_malloc
+#define USBD_malloc         malloc
 
 /** Alias for memory release. */
-#define USBD_free          USBD_static_free
+#define USBD_free          free
 
 /** Alias for memory set. */
 #define USBD_memset         memset

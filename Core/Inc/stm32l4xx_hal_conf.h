@@ -54,7 +54,7 @@
 /*#define HAL_IRDA_MODULE_ENABLED   */
 /*#define HAL_IWDG_MODULE_ENABLED   */
 /*#define HAL_LTDC_MODULE_ENABLED   */
-/*#define HAL_LCD_MODULE_ENABLED   */
+#define HAL_LCD_MODULE_ENABLED
 /*#define HAL_LPTIM_MODULE_ENABLED   */
 /*#define HAL_MMC_MODULE_ENABLED   */
 /*#define HAL_NAND_MODULE_ENABLED   */
@@ -192,7 +192,7 @@
   * @brief Uncomment the line below to expanse the "assert_param" macro in the
   *        HAL drivers code
   */
- #define USE_FULL_ASSERT    1U
+/* #define USE_FULL_ASSERT    1U */
 
 /* ################## Register callback feature configuration ############### */
 /**
