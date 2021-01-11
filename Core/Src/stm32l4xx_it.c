@@ -23,6 +23,7 @@
 #include "stm32l4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -171,7 +172,7 @@ void TIM3_IRQHandler(void)
   HAL_TIM_IRQHandler(&htim3);
   /* USER CODE BEGIN TIM3_IRQn 1 */
   HAL_GPIO_TogglePin(LD_R_GPIO_Port, LD_R_Pin);
-  CDC_Transmit_FS("test\n", 5);
+  CDC_Transmit_FS((uint8_t*)"test\r\n", 6);
   /* USER CODE END TIM3_IRQn 1 */
 }
 
