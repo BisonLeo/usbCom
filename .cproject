@@ -82,8 +82,8 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
-						<entry excluding="BSP/STM32L476G-Discovery/stm32l476g_discovery_qspi.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_idd.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_compass.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_audio.c|CMSIS/Core/Template|CMSIS/DSP|CMSIS/RTOS2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry excluding="Third_Party/FreeRTOS/Source/portable/RVDS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_msp_template.c|STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_timebase_tim_template.c|STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c|CMSIS/Device/ST/STM32L4xx/Source/Templates|BSP/STM32L476G-Discovery/stm32l476g_discovery_qspi.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_idd.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_compass.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_audio.c|CMSIS/Core/Template|CMSIS/DSP|CMSIS/RTOS2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry excluding="Third_Party/FreeRTOS/Source/portable/MemMang/heap_5.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_2.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c|ST/STM32_USB_Device_Library/Core/Src/usbd_desc_template.c|ST/STM32_USB_Device_Library/Core/Src/usbd_conf_template.c|ST/STM32_USB_Host_Library|Third_Party/FreeRTOS/Source/portable/RVDS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB_DEVICE"/>
 					</sourceEntries>
 				</configuration>
@@ -170,8 +170,8 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
-						<entry excluding="BSP/STM32L476G-Discovery/stm32l476g_discovery_qspi.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_idd.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_compass.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_audio.c|CMSIS/Core/Template|CMSIS/DSP|CMSIS/RTOS2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry excluding="Third_Party/FreeRTOS/Source/portable/RVDS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
+						<entry excluding="STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_msp_template.c|STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_timebase_tim_template.c|STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c|CMSIS/Device/ST/STM32L4xx/Source/Templates|BSP/STM32L476G-Discovery/stm32l476g_discovery_qspi.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_idd.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_gyroscope.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_compass.c|BSP/STM32L476G-Discovery/stm32l476g_discovery_audio.c|CMSIS/Core/Template|CMSIS/DSP|CMSIS/RTOS2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry excluding="Third_Party/FreeRTOS/Source/portable/MemMang/heap_5.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_3.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_2.c|Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c|ST/STM32_USB_Device_Library/Core/Src/usbd_desc_template.c|ST/STM32_USB_Device_Library/Core/Src/usbd_conf_template.c|ST/STM32_USB_Host_Library|Third_Party/FreeRTOS/Source/portable/RVDS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="USB_DEVICE"/>
 					</sourceEntries>
 				</configuration>
