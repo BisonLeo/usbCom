@@ -127,7 +127,9 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 
 ### CDC 代码编译在 MDK-ARM 下的BUG
 
-因为 MDK-ARM 编译器无法分配对齐的内存, 因此需要在 usbd_conf.h 文件中换一个USBD_malloc 和 USBD_free的实现方式, 用 STM32CUBEIDE 的 arm-none-eabi-gcc 没有该问题.
+因为 MDK-ARM 编译下在malloc失败了, 因此需要在 usbd_conf.h 文件中换一个USBD_malloc 和 USBD_free的实现方式, 用 STM32CUBEIDE 的 arm-none-eabi-gcc 没有该问题. 或者在startup_stm32l476xx.s 里增加heap_size 到 0x400 就可以解决. 
+
+![image-20210111140111143](.\image-20210111140111143.png)
 
 ```c
 /* Memory management macros */
